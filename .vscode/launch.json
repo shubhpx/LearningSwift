@@ -1,0 +1,22 @@
+{
+    "configurations": [
+        {
+            "type": "swift-lldb",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:LearningSwift}",
+            "name": "Debug LearningSwift",
+            "program": "${workspaceFolder:LearningSwift}/.build/debug/LearningSwift",
+            "preLaunchTask": "swift: Build Debug LearningSwift"
+        },
+        {
+            "type": "swift-lldb",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:LearningSwift}",
+            "name": "Release LearningSwift",
+            "program": "${workspaceFolder:LearningSwift}/.build/release/LearningSwift",
+            "preLaunchTask": "swift: Build Release LearningSwift"
+        }
+    ]
+}

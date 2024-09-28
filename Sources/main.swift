@@ -1,3 +1,6 @@
+// The Swift Programming Language
+// https://docs.swift.org/swift-book
+
 
 // Constant / Unchangable Variables in Swift
 // Format -> let VariableName: VariableType = VariableValue
